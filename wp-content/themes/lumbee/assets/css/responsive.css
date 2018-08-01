@@ -1,0 +1,898 @@
+@media only screen and (min-width:1900px){
+	.container{width:1540px;}
+}
+@media only screen and (max-width:1300px){
+
+	/************************* establish service page start **************************/
+	.establish_service_content .triangle-left {border-bottom: 250px solid transparent;border-right: 175px solid #0082ba;border-top: 250px solid transparent;}
+	.establish_service_content .angle-wrapper {left: 75px;}
+	.establish_service_content .angle-wrapper img {width: 75px;}
+	.triangle-left {border-bottom: 350px solid transparent;	border-right: 300px solid #0082ba;border-top: 350px solid transparent;}
+	.angle-wrapper img {width: 140px;}
+	.angle-wrapper {left: 120px;}
+	.contact-heading > img {max-width: 70px;}
+	.contact-heading h3 {font-size: 24px;margin: 25px 0 0 25px;}
+        
+        
+        /************** Volunteers Page CSS Starts *****************/
+        .volunteer-content ul {
+            padding: 4% 7%;
+        }
+        .member-volunteer ul li {
+            font-size: 20px;
+            margin: 7px 0px;
+        }
+        /************** Volunteers Page CSS Ends *****************/
+        /************** Career Days Page CSS Starts *****************/
+        .carrer-days-content {
+            padding: 6% 10% !important;
+        }
+        /************** Career Days Page CSS Ends *****************/
+        /************** Safety Demos Page CSS Starts *****************/      
+        .safety-demos-left-content p, .safety-demos-right-content p {
+            font-size: 23px;
+            line-height: 32px;
+        }
+        /************** Safety Demos Page CSS Ends *****************/
+        /************** Energy Sports Club Page CSS Starts *****************/
+        .volunteer-content .camp-dates {
+            padding: 4% 10% !important;
+        }
+        /************** Energy Sports Club Page CSS Ends *****************/
+}
+@media only screen and (max-width:1200px){
+    nav.navbar.bootsnav ul.nav > li > a{font-size:12px;}
+    .header-wrapper{width:100%;}
+    nav.bootsnav.navbar-brand-top .navbar-header{width:100%;display:block;text-align:center;}
+    .navbar-brand{display:inline-block;float:none;}
+    .title-numbers{font-size:14px;}
+    .numbers-row{font-size:40px;}
+    .main-links li{margin-right:20px;}
+    footer a{font-size:13px;}
+    .copyright,.design-by{font-size:14px;}
+    .footer-main img{width:160px;}
+    .navbar-brand > img{width:200px;}
+    nav.navbar.bootsnav ul.nav > li > a{padding:10px 0;}
+    .header-search{margin-top:7px;}
+    .about-touchstone h2{font-size:21px;}
+    input{appearance:none;-webkit-appearance:none;}
+    .triangle-right{display:none;}
+    .heading-utitlity h2{font-size:40px;}
+    .capital-credit-intro .heading-utitlity h2{font-size: 28px;}
+    .service-icon img{max-width:100px;}
+    .services-main span{font-size:14px;}
+    .dropdown-menu{width:250px;left:auto;right:0;}
+    .header-right .dropdown-menu::before{right:0;}
+
+    /************ Member Tools page start  **************/
+    .intro.member_tools_intro {padding: 50px 0;}
+    .intro.member_tools_intro p {font-size: 18px;line-height: 28px;}
+    .member_tools_box h3 {font-size: 40px;margin-bottom: 30px;margin-top: 30px;}
+    .member_tools_box .text_ul {height: 220px;padding: 20px 30px;width: 85%;}
+    .member_tools_box ul li {font-size: 20px;padding: 3px 0 0 20px;}
+    .member_tools_box ul li::before {font-size: 32px;left: 0;top: -7px;}
+    .other_resources_info h2 {font-size: 40px;}
+    .other_resources_info ul {width: 85%;}
+
+    /************ Become A Member page start  **************/
+    .benefits_membership h2 {font-size: 40px;line-height: 36px;margin-bottom: 25px;}
+    .benefits_membership ul.left_benefits {width: 47%;}
+    .benefits_membership ul.right_benefits {width: 50%;}
+    .benefits_membership h3 {font-size: 28px;margin: 30px 0;}
+    .energy-kit-intro{max-width: 80%;}
+    .facilities > ul {width: 40%;}
+    .big-txt-facility{width: 55%; font-size: 60px; line-height: 50px;}
+    .energy-efficiency h2, .who-eligible h2, .terms-law h2{font-size: 35px; line-height: 40px;}
+    table th{font-size: 25px;}
+    table td{font-size: 20px;}
+    .terms-law h3{font-size: 28px;}
+
+    /************************* Renewable programs page start **************************/
+    .renewable_programs_top p {font-size: 20px;line-height: 30px;}
+    .renewable_programs_detail img {width: 170px;}
+    .renewable_programs_detail h3 {font-size: 20px;margin: 15px 0;}
+    .renewable_programs_detail {margin-bottom: 30px;margin-top: -25px;min-height: 870px;}
+    .renewable_programs_box1 {width: 365px;}
+    .renewable_programs_box2 ,.renewable_programs_box3 ,.renewable_programs_box5 , .renewable_programs_box6 {width: 285px;}
+    .renewable_programs_box4 {width: 325px;}
+
+    /************************* establish service page start **************************/
+    .intro.establish_service_intro p {font-size: 18px;line-height: 28px;}
+    .establish_service_top h2, .other_important_info h2, .residential_service_application h2 {font-size: 40px;}
+    .establish_service_top .more-about-wrapper {column-gap: 60px;}	
+    .establish_service_top .more-about-wrapper .comman-row {margin-bottom: 0;min-height: 55px;width: 359px;}
+    .establish_service_intro {padding: 45px 0 30px;}
+    .establish_service_content .triangle-left {border-bottom: 210px solid transparent;border-right: 150px solid #0082ba;border-top: 210px solid transparent;}
+    .establish_service_content .angle-wrapper {left: 65px;}
+    .establish_service_content .angle-wrapper img {width: 60px;}
+    .other_important_info ul li {font-size: 20px;line-height: 36px;padding-left: 20px;}
+    .other_important_info ul li ul li {font-size: 17px;line-height: 30px;padding-left: 20px;}
+    .contact-heading > img {max-width: 50px;}
+    .contact-heading h3 {font-size: 20px;margin: 15px 0 0 15px;}
+    .address-info h2 {font-size: 34px;}
+    .triangle-left {border-bottom: 315px solid transparent;border-right: 280px solid #0082ba;border-top: 315px solid transparent;}
+    .angle-wrapper {left: 115px;}
+    .angle-wrapper img {width: 120px;}
+    .map-img iframe {height: 605px;}
+    table.ai1ec-month-view  th{font-size:20px;}
+
+    /************** Volunteers Page CSS Starts *****************/
+    .volunteer-content ul {
+        padding: 2% 7%;
+    }
+    .member-volunteer ul li {
+        font-size: 18px;
+        margin: 5px 0px;
+        line-height: 23px;
+    }
+    /************** Volunteers Page CSS Ends *****************/
+   /************** Career Days Page CSS Starts *****************/
+    .carrer-days-content {
+        padding: 3.4% 10% !important;
+    }
+    .carrer-days-content p {
+        font-size: 20px;
+    }
+    /************** Career Days Page CSS Ends *****************/
+    /************** CEO Message Page CSS Starts *****************/
+    .message-content .right-content > img {
+        height: auto;
+        width: 275px;
+    }
+    /************** CEO Message Page CSS Ends *****************/
+    /************** Safety Demos Page CSS Starts *****************/      
+    .safety-demos-left-content p, .safety-demos-right-content p {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .safety-contact-content p {
+        font-size: 20px;
+        line-height:28px;
+    }
+    /************** Safety Demos Page CSS Ends *****************/
+    /************** Safety Billboard Contest Page CSS Starts *****************/
+    .billboard-contest-content .sports-left {
+        padding:19% 12% !important;
+    }
+    .green-guide {
+        font-size: 15px;    
+    }
+    .blue-guide {
+        font-size: 15px;    
+    }
+    .skyblue-guide {
+        font-size: 15px;    
+    }
+    /************** Safety Billboard Contest Page CSS Ends *****************/
+    /************** Energy Sports Club Page CSS Starts *****************/
+    .volunteer-content .camp-dates {
+        padding: 4% 10% !important;
+    }
+    .volunteer-content .camp-dates h3 {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    .member-volunteer .camp-dates p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .volunteer-content .camp-dates {
+        padding: 4% 8% !important;
+    }
+    .sports-right h3 {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .sports-right p,.sports-left p, .sports-left strong, .sports-left a, .sports-right a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /************** Energy Sports Club Page CSS Ends *****************/
+    /************** BYOT Page CSS Starts *****************/
+    .brown-image a span {
+        bottom:10px;
+    }
+    /************** BYOT Page CSS Ends *****************/
+    /************** NC Green Power CSS Starts *****************/
+    .green-left, .green-right {
+        padding: 5% 10% !important;
+    }
+    .green-left p, .green-right p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 20px;
+        word-wrap:  break-word;
+    }
+    /************** NC Green Power CSS Ends *****************/
+}
+@media only screen and (max-width:991px){ 
+	.logo{width:150px;}
+	#navbar-menu{margin:0;padding:0;top:58px;}
+	nav.navbar.bootsnav{padding-bottom:0;}
+	nav.navbar.bootsnav ul.nav > li{padding:0;}
+	nav.navbar.bootsnav.navbar-mobile ul.nav > li > a{padding:0 15px;}
+	nav.navbar.bootsnav .navbar-header{padding:0;}
+	nav.navbar.bootsnav ul.nav > li > a{padding:10px 0;}
+	nav.bootsnav.navbar-brand-top ul.nav{padding:0;margin:0;}
+	nav.navbar.bootsnav .navbar-nav{margin:0;padding:20px;}
+	.navbar .container{margin:0;width:100%;}
+	nav.navbar.bootsnav ul.nav > li.active::after{display:none;}
+	nav.navbar.bootsnav .navbar-toggle{margin-right:10px;margin-top:15px;font-size:20px;float:right;background:none !important;width:30px;height:30px;position:absolute;right:15px;}
+	nav.navbar.bootsnav.no-full .navbar-collapse{max-height:calc(100vh - 60px) !important;position:absolute;left:0;width:100%;background:#fff;}
+	nav.navbar.bootsnav ul.nav > li > a,nav.navbar.bootsnav ul.nav > li > a:hover, nav.navbar.bootsnav ul.nav > li.active > a{background:none !important;border-bottom:1px solid #b09c94 !important;}
+	.navbar-brand{float:none;}
+	nav.navbar.bootsnav{z-index:9999;}
+	nav.navbar.bootsnav .navbar-nav > li:last-child a{border-bottom:0 !important;}
+	.navbar .dropdown i{top:10px;}
+	.navbar .dropdown i {
+		font-size: 18px;
+		position: absolute;
+		right: 0;
+		text-align:right;
+		top: 10px;
+		width: 50px;
+		cursor:pointer;
+		color:#0082c0;
+	}
+	.footer-bottom .pull-right{float:left !important;margin:10px 0;}
+	.contact-details{margin-top:20px;}
+	.footer-main .main-links{margin:20px 0;}
+	.member-detail{width:75%;}
+	.numbers .col-md-3{margin-bottom:20px;}
+	.intro,.mission{padding:40px 0;}
+	.team-wrapper,.team-members-list .col-md-3{margin-bottom:20px;}
+	.service-icon img{max-width:80px;}
+	.member-bnft-img h2{font-size:26px;}
+
+	/************ Member Tools page start  **************/
+	.intro.member_tools_intro p {font-size: 16px;line-height: 26px;}
+	.box_content {height: 378px;width: 100%;}
+	.member_tools_box h3 {font-size: 36px;margin-bottom: 20px;margin-top: 20px;}
+	.other_resources_info ul {width: 100%;}
+	.other_resources_info ul li {font-size: 20px;padding: 3px 0 0 20px;width: 49%;}
+	.member_tools_box .text_ul {height: 200px;padding: 20px 30px;width: 85%;}
+	.other_resources_info h2 {font-size: 36px;}
+	.other_resources_info ul li::before {font-size: 30px;top: -5px;}
+
+	/************ Become A Member page start  **************/
+	.benefits_ul {padding: 0 0 0 3%;width: 100%;}
+	.benefits_membership ul.left_benefits {width: 48%;}
+	.benefits_membership ul.right_benefits {width: 48%;}
+	.benefits_membership h3 {font-size: 26px;margin: 20px 0;}
+	.benefits_membership ul li {font-size: 18px;padding: 3px 0 0 12px;}
+
+	/************ Scholarships & Grants page start  **************/
+	.scholarships_grants_intro .heading-utitlity h2 {font-size: 22px;margin-bottom: 20px;}
+	.intro.scholarships_grants_intro p {font-size: 18px;line-height: 26px;}
+	.scholarship_left {padding: 0 0 35px;}
+	.scholarship_right {border-left: medium none;border-top: 1px solid #acb5b9;padding: 30px 0 0;}
+	.scholarship_box {padding: 35px 0;}
+	.intro.scholarships_grants_intro, .scholarship_rules {padding: 30px 0 35px;}
+	.scholarship_rules p br {display: none;}
+	.submit-application h2, .more-info h2 ,.energy-efficiency h2, .who-eligible h2, .terms-law h2,.capital-credit-intro .heading-utitlity h2,.capital-info h2,.enrgy-kit-instrument h2,.member-info .heading-utitlity  h2,.bill-acordion .panel-title a {font-size: 25px; line-height: 30px;}
+	.submit-application p,.submit-application a,.capital-credit-intro p,.intro-sec .heading-utitlity p,.intro.weatherization p,.who-eligible p,.who-eligible li,.monthy-faci-chrg p{font-size: 18px;line-height: 25px;}
+	.more-info a span{font-size: 13px;}
+	.capital-credit-intro .heading-utitlity{max-width: 100%;}
+	.energy-kit-intro,.enrgy-kit-instrument.cf{max-width: 100%; width: 100%;}
+	.kit-row img {width: 76%;}
+	.kit-info{padding-left: 0;}
+	.member-info .default-btn {width: 120px;height: 50px;line-height: 50px;}
+	.or {margin: 20px 15px 0;}
+	.member-info .size-mb{margin-top: 3px;}
+	.downld{font-size: 20px;}
+	.facilities {margin: 7px 0; padding: 0;}
+	.qualifying-facilities{padding: 20px 0;}
+	.intro-sec{padding: 30px 0 20px 0;}
+	.energy-efficiency li{font-size: 20px; padding-bottom: 10px;}
+	.energy-efficiency,.who-eligible,.intro.weatherization,.terms-law{padding: 25px 0;}
+	.energy-efficiency h2, .who-eligible h2, .terms-law h2{margin-bottom: 15px; padding-bottom: 5px;}
+	table th {
+		font-size: 20px;
+	}
+	table td {
+		font-size: 18px;
+	}
+	.monthy-faci-chrg{padding: 30px 0;}
+	.bill-acordion .panel-group {padding: 0;}
+	.video-main {padding: 40px 0 0;}
+	.video-main .heading-utitlity {
+		margin-bottom: 20px;
+	}
+	.youth-accordion {padding-top: 0;}
+
+	/************************* Renewable programs page start **************************/
+	.renewable_programs_detail {margin-bottom: 20px;margin-top: -10px;min-height: 690px;}
+	.renewable_programs_text {top: 35%;width: 42%;}
+	.renewable_programs_text > p {font-size: 14px;line-height: 22px;}
+	.renewable_programs_detail img {width: 100px;}
+	.renewable_programs_detail h3 {font-size: 16px;margin: 10px 0;}
+	.renewable_programs_box1 {width: 295px;}
+	.renewable_programs_box2, .renewable_programs_box3, .renewable_programs_box5, .renewable_programs_box6 {width: 185px;}
+	.renewable_programs_box4 {width: 280px;}
+	/************************* establish service page start **************************/
+	.establish_service_content .triangle-left {border-bottom: 150px solid transparent;border-right: 150px solid #0082ba;border-top: 150px solid transparent;z-index: -1;}
+	.establish_service_top h2, .other_important_info h2, .residential_service_application h2 {font-size: 38px;}
+	.establish_service_top {margin-bottom: 40px;margin-top: 20px;}
+	.establish_service_top .more-about-wrapper {column-gap: 35px;}
+	.establish_service_top .more-about-wrapper .comman-row {width: 342px;}
+	.establish_service_top .list-icon {height: 60px;line-height: 45px;width: 60px;}
+	.list-icon > img {width: 24px;}
+	.establish_service_top p {font-size: 18px;margin-top: -27px;padding: 0 0 0 23%;}
+	.establish_service_top .list-icon::after {top: 30px;}
+	.other_important_info ul {column-gap: 0;columns: auto auto;float: left;margin: 0;padding: 0 0; width: 100%;}
+	a.down_arrow i {line-height: 36px;}
+	.application_service h2 {font-size: 22px;}
+	.application_service input[type="submit"] {font-size: 18px;margin: 30px 0;padding: 10px 40px;}
+	.establish_service_banner .banner-img {height: 135px;}
+	.submit-application h2, .more-info h2 {font-size: 22px;}
+	.triangle-left {bottom: 0;top: auto;}
+	.establish_service_content .triangle-left {bottom: auto;top: 0px;}
+	.event_title_gradiant{position:static;}
+        
+        /************** Volunteers Page CSS Starts *****************/
+        .volunteer-content ul {
+            padding:4% 10%;
+        }
+        .member-volunteer ul li {
+            margin:12px 0px;
+            color: #333333;
+            font-family: "gotham";
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 27px;
+        }
+    /************** Career Days Page CSS Starts *****************/
+        .carrer-days-content {
+            padding: 5% !important;
+            text-align:center;
+            width:100%;
+        }
+    /************** Career Days Page CSS Ends *****************/
+    /************** CEO Message Page CSS Starts *****************/
+    .message-content .right-content > img {
+        height: auto;
+        width: 250px;
+    }
+    .message-content .right-content {
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+    /************** CEO Message Page CSS Ends *****************/
+    /************** Safety Billboard Contest Page CSS Starts *****************/
+    .billboard-contest-content .sports-left {
+        padding:7% 10% !important;
+    }
+    .green-guide {
+        font-size: 18px;    
+    }
+    .blue-guide {
+        font-size: 18px;    
+    }
+    .skyblue-guide {
+        font-size: 18px;    
+    }
+    .guidelines-download a {
+        margin-bottom:15px;
+    }
+    /************** Safety Billboard Contest Page CSS Ends *****************/
+    /************** Energy Sports Club Page CSS Starts *****************/
+    .volunteer-content .camp-dates {
+        padding: 4% 10% !important;
+    }
+    .volunteer-content .camp-dates h3 {
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .member-volunteer .camp-dates p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .volunteer-content .camp-dates {
+        padding:8% !important;
+    }
+    .document-download-link > a {
+        display: inline-block;
+        text-align: left;
+        width: 90%;
+    }
+    .sports-right h3 {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .sports-right p,.sports-left p, .sports-left strong, .sports-left a, .sports-right a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /************** Energy Sports Club Page CSS Ends *****************/
+    /************** BYOT Page CSS Starts *****************/
+    .brown-image a span {
+        bottom:10px;
+    }
+    .byot-content-price {
+        padding: 5% 0%;
+    }
+    /************** BYOT Page CSS Ends *****************/
+    /************** NC Green Power CSS Starts *****************/
+    .green-left, .green-right {
+        height:auto;
+        padding: 5% !important;
+    }
+    /************** NC Green Power CSS Ends *****************/
+}
+@media only screen and (max-width:767px){
+    .contact-main .triangle-left { display:none; }
+        .comman-row{width:100%;}
+	.intro p,p{font-size:18px;}
+	.more-about-wrapper{ -webkit-columns:1; /* Chrome, Safari, Opera */
+		-moz-columns:1; /* Firefox */
+		columns:1;
+		-webkit-column-gap:0px; /* Chrome, Safari, Opera */
+		-moz-column-gap:0px; /* Firefox */
+		column-gap:0px;
+	}
+	.more-about-wrapper .comman-row{min-height:auto;}
+	.membership-wrapper{padding:0 20px;}
+	h2{margin-bottom:20px;}
+	.footer-main .main-links{padding-bottom:15px;}
+	.footer-main{margin-bottom:20px;}
+	.comman-row{margin-bottom:20px;}
+	.more-about-us p{font-size:16px;}
+	.membership,.more-about-us{padding:30px 0 20px;}
+	h2{font-size:26px;}
+	.copyright, .design-by{font-size:12px;}
+	h3{font-size:18px;}
+	.banner-img h1, .main-title h1{font-size:40px;}
+	.footer-top li{margin-bottom:5px;}
+	.about-touchstone h2{font-size:20px;}
+	iframe{height:300px;}
+	/*.video-main  iframe{height: auto;}*/
+	.member-image{max-width:250px;}
+	.heading-utitlity h2{font-size:30px;}
+	.inner-utlity img{float:none;max-width:100%;margin:0;}
+	.service-inner{padding:0 15px;}
+	.services-main{padding:30px 0 10px;}
+	.services-main ul li{width:25%;margin:0 10px 30px;}
+	.service-icon img{width:100%;max-width:80px;}
+	.inner-welcome-txt p{font-size:16px;}
+	.membership-benefits .col-md-6{padding:15px;}
+	.main-slider.owl-theme .owl-dots .owl-dot span{width:14px;height:14px;}
+	.slider .owl-nav{width:90px;}
+	.slider .owl-next,.slider .owl-prev{top:0;}			
+
+	/************ Member Tools page start  **************/
+	.intro.member_tools_intro {padding: 50px 0 30px;}
+	.member_tools_box h3 {font-size: 34px;margin-bottom: 20px;margin-top: 20px;}
+	.new_layout_about_touch .box_content {height: auto;width: 100%;}
+	.other_resources_info ul {width: 75%;}
+	.other_resources_info ul li {font-size: 20px;padding: 3px 0 0 20px;width: 100%;}
+
+	/************ Become A Member page start  **************/
+	.become_member_intro .heading-utitlity {margin: 20px 0;text-align: left;}
+	.benefits_membership h2 {font-size: 32px;line-height: 36px;margin-bottom: 25px;}
+	.benefits_membership ul.left_benefits ,.benefits_membership ul.right_benefits {width: 100%;}
+	.benefits_membership h3 {font-size: 24px;margin: 20px 0;}
+	.benefits_membership ,.become_member_bottom {padding: 35px 0;}
+	/************ Scholarships & Grants page start  **************/
+	.scholarships_grants_intro .heading-utitlity h2,.more-info h2, .capital-credit-intro .heading-utitlity h2, .capital-info h2{font-size: 20px;margin-bottom: 16px;}
+	.intro.scholarships_grants_intro p {font-size: 16px;line-height: 24px;}
+	.scholarship_box h3 {font-size: 20px;}
+	.scholarship_box p {font-size: 16px;line-height: 24px;margin-bottom: 20px;}
+	.scholarship_rules p {font-size: 16px;line-height: 24px;margin-bottom: 20px;}
+	.scholarship_rules ul li br {display: none;}
+	.scholarship_rules ul li {font-size: 16px;padding: 13px 0 13px 42px;}
+	.intro.scholarships_grants_intro, .scholarship_rules {padding: 30px 0 10px;}
+	.scholarship_rules {padding: 30px 0;}
+	.mailto {
+		border-bottom: 1px solid #cbd2d3;border-right: 0;
+		margin: 0 0 20px 0;
+		width: 100%;
+		float: left;
+		padding: 0 0 10px 0;
+	}
+	.emailto{padding: 0; float: left; width: 100%;}
+	.brochure-main{margin: 0;}
+	.equal-hg {height: auto !important;}
+	.row-capital-credit:nth-child(2n+1) .capital-img,.row-capital-credit .equal-hg,.row-capital-credit:nth-child(2n) .capital-img{padding: 0;}
+	.capital-info {
+		position: static;
+		top: auto; float: left; width: 100%;
+		-moz-transform: none; -webkit-transform: none;transform: none;margin: 20px 0 0 0; padding:0;}
+		.row-capital-credit {margin-bottom: 30px;padding-bottom: 10px;}
+		.capital-credit-main{margin-top: 10px;}
+		.kit-row img{max-width: 100px;}
+		.kit-row{margin:0;}
+		.kit-img{text-align: center;}
+		.energy-kit-intro {margin-bottom: 30px;}
+		.kit-info,.enrgy-kit-instrument p{text-align: center;}
+		.enrgy-kit-instrument p{padding: 0;}
+		.member-img {padding: 0; text-align: center;}
+		.member-img.pull-right { float: none !important;}
+		.member-img > img{width: 80%;}
+		.membership-row:nth-child(2n+1) .member-info {padding-left: 0;}
+		.member-info {padding: 25px 0 0 0;}
+		.membership-row:nth-child(2n) .member-info {padding-right: 0;}
+		.membership-row {padding: 30px 0;}
+		.smart-hub > img {max-width: 300px;}
+		table th {
+			font-size: 18px; padding: 10px;
+		}
+		table td {
+			font-size: 16px; padding: 10px;
+		}
+		.energy-efficiency ul.left,.energy-efficiency ul.right {
+			width: 100%;
+		}
+		.terms-law h3 {
+			font-size: 24px;
+			line-height: 29px;
+		}
+		.terms-law table {
+			margin-bottom: 30px;
+		}
+		.energy-efficiency ul.right{margin-top: 15px;}
+		/* responsive tabel css start*/
+		table thead, table tbody, table th, table td, table tr,table  thead, table tr { display: block; }
+		/* Hide table headers (but not display: none;, for accessibility) */
+		table thead tr
+		{ position: absolute; top: -9999px; left: -9999px; }
+		table tr{ border:0; border-bottom: 1px solid #ade0f6; padding:0 0 25px;}
+		table td{ /* Behave  like a "row" */ border: none; /*border-bottom: 1px solid #eee;*/ position: relative; padding-left: 50%; white-space: normal; text-align: left; }
+		table td:before{ /* Now like a table header */ position: absolute; /* Top/left values mimic padding */ /*top: 6px;*/ left: 9px; width: 45%; padding-right: 10px; font-weight: 600; }
+				/*
+					Label the data
+					*/
+					table td:before{ content: attr(data-title); }
+					table tbody tr td{ width: auto !important; padding-left: 55%; overflow-wrap: break-word; }
+					/*table tbody tr td:first-child { text-align: left; padding-left: 10px; }*/
+					/* responsive tabel css end */
+					table tr:last-child {
+						border-bottom: 0;
+					}
+					.who-eligible li ul li{line-height: 27px;}
+					.bill-acordion .panel-title a{font-size: 21px;}
+					.bill-acordion .panel-default > .panel-heading{padding: 15px;}
+					.bill-acordion .panel-default:nth-child(2n+1)::before,.bill-acordion .panel-default:nth-child(2n+1)::after,.youth-accordion .panel-default:nth-child(2n)::before,.youth-accordion .panel-default:nth-child(2n)::after{height: 65px;}
+					.bill-acordion .panel-title a::before{top: 11px !important;}
+					.bill-acordion .accordion-toggle span {
+						display: inline-block;
+						max-width: 500px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						vertical-align: middle;
+						white-space: nowrap;
+					}
+					.view-img img {max-width: 200px;}
+					.view-img {padding-bottom: 35px;}
+					.view-rate .heading-utitlity {padding: 20px 0 5px;}
+					.monthy-faci-chrg p{width: 100%;}
+					.bill-acordion{padding: 30px 0;}
+					.video-main .heading-utitlity {margin-bottom: 0;}
+
+					/************************* Renewable programs page start **************************/
+					.renewable_programs_top p {font-size: 16px;line-height: 22px;}
+					.renewable_programs_detail {margin-bottom: 20px;margin-top: 0;min-height: 645px;}
+					.renewable_programs_detail img {width: 85px;}
+					.renewable_programs_detail h3 {font-size: 14px;margin: 10px 0;}
+					.renewable_programs_detail {margin-bottom: 20px;margin-top: 0;min-height: 540px;}
+					.renewable_programs_text {top: 30%;width: 41%;}
+					.renewable_programs_text > p {font-size: 12px;line-height: 18px;}
+					.renewable_programs_box1 {width: 44%;}
+					.renewable_programs_detail img {width: 85px;}
+					.renewable_programs_detail h3 {font-size: 14px;margin: 10px 0;}
+					.renewable_programs_box2 {top: 80px;width: 28%;}
+					.renewable_programs_box3 {bottom: 105px;width: 30%;}
+					.renewable_programs_box4 {width: 38%;}
+					.renewable_programs_box5 {bottom: 105px;width: 30%;}
+					.renewable_programs_box6 {top: 80px;width: 22%;}
+
+					/************************* establish service page start **************************/
+					.establish_service_content .triangle-left {border-bottom: 130px solid transparent;border-right: 135px solid #0082ba;border-top: 130px solid transparent;}
+					.establish_service_content .angle-wrapper {left: 65px;}
+					.establish_service_content .angle-wrapper img {width: 50px;}
+					.intro.establish_service_intro p {font-size: 16px;line-height: 24px;}
+					.establish_service_top h2, .other_important_info h2, .residential_service_application h2 {font-size: 32px;}
+					.establish_service_top {margin-bottom: 30px;margin-top: 15px;}
+					.establish_service_top .more-about-wrapper {column-gap: 0;columns: auto auto;width: 100%;}
+					.establish_service_top .more-about-wrapper .comman-row {width: 100%;}
+					.establish_service_top p {font-size: 18px;margin-top: -27px;padding: 0 0 0 80px;}
+					.cols {width: 100%;}
+					.application_service h2 {font-size: 18px;}
+					.submit-application h2, .more-info h2 {font-size: 20px;}
+					.map-img iframe {height: 275px;}
+					.address-info h2 {font-size: 30px;}
+					.remove_padding{padding-left:15px !important;}
+					.ai1ec-month-view .ai1ec-date{height:50px;}
+					.main_calender_section .ai1ec-month-view .ai1ec-day{display:inline-block;width:100%;text-align:right;}
+					.news_events h1{font-size:32px;}
+					.today_date{font-size:140px;line-height:140px;}
+					.event_title_gradiant{font-size:30px;}
+/************** Annual Report Page CSS Ends *****************/
+.report-image, .report-title {
+    max-width:300px;
+    margin:0px auto;
+}
+/************** Annual Report Page CSS Ends *****************/
+/************** Energy Sports Club Page CSS Starts *****************/
+.sports-content img {
+    margin-right: 30px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.sports-rules ul {
+    list-style-position: inside;
+}
+.sports-content p, .sports-rules ul li {
+    font-size: 20px;
+    line-height: 28px;
+}
+.document-download-link > a {
+    margin-bottom:20px;
+}
+/************** Energy Sports Club Page CSS Ends *****************/
+/************** BYOT Page CSS Starts *****************/
+.brown-image a span {
+    bottom:20px;
+}
+.byot-content-price {
+    padding: 7% 0%;
+}
+.byot-content h3 {
+    margin-top: 30px;
+}
+.brown-image a {
+    margin-bottom:20px;
+}
+/************** BYOT Page CSS Ends *****************/
+}
+@media only screen and (max-width:639px){
+    .today_date_day{font-size:20px;}
+    nav.navbar.bootsnav .navbar-toggle{margin-top:15px;}
+    .intro p, p{font-size:16px;line-height:26px;}
+
+    /************ Member Tools page start  **************/
+    .member_tools_box h3 {font-size: 32px;}
+    .member_tools_box ul li {font-size: 18px;padding: 3px 0 0 20px;}
+    .member_tools_box ul li::before {font-size: 30px;top: -6px;}
+    .other_resources_info h2 {font-size: 32px;line-height: 34px;margin-bottom: 18px;margin-top: 0;  padding: 0 8px 10px;}
+    .other_resources_info ul {width: 100%;}
+    .bill-acordion .accordion-toggle span{max-width:360px;}
+
+    /************************* Renewable programs page start **************************/
+    .renewable_programs_detail img {width: 65px;}
+    .renewable_programs_detail h3 {font-size: 12px;margin: 10px 0;}
+    .renewable_programs_text {top: 25%;width: 41%;}
+    .renewable_programs_box4 {width: 44%;}
+
+    /************************* establish service page start **************************/
+    .establish_service_top h2, .other_important_info h2, .residential_service_application h2 {font-size: 24px;}
+    .map-img iframe {height: 220px;}
+    .ai1ec-pull-right{float:left !important;margin-bottom:10px;}
+    
+    /************** Volunteers Page CSS Starts *****************/
+    .member-heading {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    /************** Volunteers Page CSS Ends *****************/
+    /************** BYOT Page CSS Starts *****************/
+    .byot-content-image {
+        float: none;
+        width: 100%;
+        margin-bottom:0px;
+    }
+    .byot-content-price {
+        float:none;
+        width:100%;
+        padding:20px 0px 0px;
+    }
+    .byot-content-price p {
+        font-size: 20px;
+        line-height:25px;
+        text-align:center;
+    }
+    .byot-content p, .byot-content-brown p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .brown-image a span {
+        display: block;
+        position: static;
+    }
+    /************** BYOT Page CSS Ends *****************/
+}
+@media only screen and (max-width:479px){
+    .header-right{width:100%;margin-top:10px;}
+    .login{float:right;}
+    .social-icon{float:left;}
+    .mission h3{font-size:24px;}
+    .numbers-row{font-size:30px;}
+    .title-numbers{height:60px;}
+    .member-icon{width:20%;}
+    .member-icon img{width:100%;}
+    .member-detail{width:74%;}
+    .navbar-brand > img{width:160px;}
+
+    /************ Member Tools page start  **************/
+    .member_tools_box h3 {font-size: 30px;margin-bottom: 15px;margin-top: 15px;}
+    .member_tools_box ul li {font-size: 16px;padding: 3px 0 0 20px;}
+    .member_tools_box ul li::before {font-size: 28px;top: -6px;}
+    .member_tools_box .text_ul {height: auto;padding: 15px 20px;width: 90%;}
+    .other_resources_info {padding: 35px 0;}
+    .other_resources_info h2 {font-size: 28px;line-height: 30px;margin-bottom: 15px;margin-top: 0;padding: 0 5px 5px;}
+    .other_resources_info ul li {font-size: 16px;padding: 3px 0 0 15px;width: 100%;}
+    .other_resources_info ul li::before {font-size: 26px;top: -5px;}
+
+    /************ Become A Member page start  **************/
+    .benefits_membership h2 {font-size: 28px;line-height: 32px;margin-bottom: 18px;}
+    .benefits_membership ul li {font-size: 16px;padding: 3px 0 0 12px;}
+    .benefits_membership ul li::before {top: 12px;}
+    .benefits_membership h3 {font-size: 20px;margin: 15px 0;}
+    .benefits_membership p {line-height: 22px;}
+    .become_member_bottom h2 {font-size: 24px;line-height: 30px;margin: 15px 0 0;}
+    .become_member_bottom h3 {font-size: 20px;margin: 5px 0 15px;}
+    .brochure{width: 100%; padding-left: 0; padding-right: 0;}
+    .member-info li{width: 100%; text-align: center;}
+    .or {margin: 10px 0px;}
+    .member-info{text-align: center;}
+    .member-info .default-btn{width: 100%;}
+    .smart-hub > img,.job-search > img {max-width: 250px;}
+    .facilities > ul,.big-txt-facility {width: 100%;}
+    .big-txt-facility{margin-top: 30px; font-size: 50px; line-height: 40px;}
+    .bill-acordion .accordion-toggle span {max-width: 200px;}
+    .bill-acordion .panel-title a {font-size: 19px;}
+
+    /************************* Renewable programs page start **************************/
+    .renewable_programs_detail {margin-bottom: 20px;margin-top: 0;min-height: 500px;}
+    .renewable_programs_text {top: 35%;width: 90%;}
+    .renewable_programs_box1 ,.renewable_programs_box4 {width: 59%;}
+    .renewable_programs_detail img {width: 45px;}
+    .renewable_programs_detail h3 {font-size: 10px;margin: 5px 0;}
+    .renewable_programs_box2 ,.renewable_programs_box6 {top: 80px;width: 36%;}
+    .renewable_programs_box3 ,.renewable_programs_box5 {bottom: 70px;width: 38%;}
+
+    /************************* establish service page start **************************/
+    .establish_service_intro {padding: 30px 0 20px;}
+    .establish_service_banner .banner-img {height: 90px;}
+    .intro.establish_service_intro p {font-size: 14px;line-height: 20px;}
+    .establish_service_content .triangle-left {border-bottom: 110px solid transparent;border-right: 110px solid #0082ba;border-top: 110px solid transparent;}
+    .establish_service_content .angle-wrapper {left: 55px;}
+    .establish_service_content .angle-wrapper img {width: 40px;}
+    .establish_service_top h2, .other_important_info h2, .residential_service_application h2 {font-size: 18px;}
+    .establish_service_top .list-icon {height: 50px;line-height: 35px;width: 50px;}
+    .establish_service_top .list-icon::after {top: 25px;}
+    .list-icon > img {width: 18px;}
+    .establish_service_top p {font-size: 16px;margin-top: -20px;padding: 0 0 0 60px;}
+    .other_important_info {padding: 30px 0 20px;}
+    .other_important_info ul li {font-size: 16px;line-height: 26px;margin-bottom: 5px;padding-left: 15px;}
+    .other_important_info ul li ul {padding: 0;}
+    .other_important_info ul li ul li {font-size: 14px;line-height: 18px;padding-left: 15px;}
+    .residential_service_application {float: left;padding: 30px 0 10px;}
+    .application_service h2 {font-size: 16px;}
+    .application_service input[type="text"], .application_service input[type="email"], .application_service textarea {font-size: 18px;}
+    .application_service input[type="text"]:focus, .application_service input[type="email"]:focus, .application_service textarea:focus {font-size: 14px;}
+    .application_service input[type="submit"] {font-size: 16px;margin: 20px 0 35px;padding: 8px 30px;}
+    .submit-application h2, .more-info h2 {font-size: 18px;}
+    .triangle-left {border-bottom: 200px solid transparent;border-right: 155px solid #0082ba;border-top: 200px solid transparent;}
+    .angle-wrapper {left: 65px;}
+    .angle-wrapper img {width: 65px;}
+    .map-img iframe {height: 275px;}
+    .contact-heading > img {max-width: 35px;}
+    .contact-heading h3 {font-size: 14px;margin: 10px 0 0 10px;}
+    .address-info h2 {font-size: 26px;}
+    
+    /************** Volunteers Page CSS Starts *****************/
+    .member-volunteer ul li {
+        color: #333333;
+        font-family: "gotham";
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 15px 0;
+    }
+    /************** Volunteers Page CSS Ends *****************/
+    /************** Career Days Page CSS Starts *****************/
+    .carrer-days-content img {
+        margin-right: 8px;
+    }
+    .carrer-days-content p {
+        font-size: 15px;
+    }
+    /************** Career Days Page CSS Ends *****************/
+    /************** Safety Demos Page CSS Starts *****************/      
+    .safety-content {
+        padding:0px 15px;
+    }
+    .safety-headline {
+        padding: 30px 0px;
+    }
+    .safety-headline h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .safety-demos-left-content p, .safety-demos-right-content p {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .safety-demos-left-content, .safety-demos-right-content {
+        padding:0px;
+    }
+    .safety-contact-content p {
+        font-size: 20px;
+        line-height:28px;
+    }
+    .safety-demos-left-image, .safety-demos-right-image {
+        background-color:#FFFFFF;
+    }
+    /************** Safety Demos Page CSS Ends *****************/
+    /************** Safety Billboard Contest Page CSS Starts *****************/
+    .billboard-contest-content .sports-left, .billboard-contest-content  .sports-right {
+        padding:40px 15px !important;
+    }
+    .billboard-contest-content .sports-left h3, .billboard-contest-content .sports-right h3 {
+        font-size: 20px;
+        line-height: 26px;
+    } 
+    .billboard-contest-content .sports-left p, .billboard-contest-content .sports-right p, .safety-contest-image .sub-detail, .billboard-contest-content .sports-left a {
+        font-size: 16px;
+        line-height: 26px;
+    } 
+    .green-guide {
+        font-size: 18px;    
+    }
+    .blue-guide {
+        font-size: 18px;    
+    }
+    .skyblue-guide {
+        font-size: 18px;    
+    }
+    .guidelines-download a {
+        margin-bottom:15px;
+    }
+    .billboard-contest-content .sports-left img {
+        margin-right: 10px;
+    }
+    /************** Safety Billboard Contest Page CSS Ends *****************/
+    /************** Energy Sports Club Page CSS Starts *****************/
+    .sports-right p, .sports-left p, .sports-left strong, .sports-left a, .sports-right a {
+        font-size: 20px;
+        line-height: 28px;
+        overflow-wrap: break-word;
+    }
+    .sports-info-link a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .sports-info-link {
+        overflow-wrap: break-word;
+        padding:30px 15px;
+    }
+    /************** Energy Sports Club Page CSS Ends *****************/
+    /************** NC Green Power CSS Starts *****************/
+    .panel-heading .container {
+        padding: 0px !important;
+    }
+    .nc-accordian .panel-title > a {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        padding:0px;
+        width: 100%;
+    }
+    .green-power-description,.nc-accordian {
+        padding: 20px 0 40px;
+    }
+    .nc-accordian .panel-body {
+        font-size: 16px;
+        line-height: 20px;
+        padding:10px;
+    }
+    /************** NC Green Power CSS Ends *****************/
+}
+@media only screen and (max-width:360px){
+    .banner-img h1, .main-title h1{font-size:32px;}
+    .service-icon img{max-width:50px;}
+}

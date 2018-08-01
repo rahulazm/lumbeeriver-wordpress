@@ -1,0 +1,90 @@
+/*
+    Theme Name: Lumbee River EMC
+    Theme URI: 
+    Description: Hello this is My Theme Version 5.0
+    Version: 5.0
+    Author: Kaushik K
+    Author URI: 
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.member-image > img {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius:25px;
+}
+.news_events h1{
+  color: #0481B9;
+  font-family: "gotham-bold";
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.event_calander {
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+.ai1ec-btn-group.ai1ec-actions {
+  display: none;
+}
+.mailto > p {
+  text-align: left !important;
+}
+.member-info .cf span {
+  float: left;
+  width: 100%;
+}
+
+/* Search Result Page Desgin */
+.search-results .post-box {
+  border: 1px solid #009b46;
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.search-results .container > h2 {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: left;
+	display: inline-block;
+    padding: 8px 6px !important;
+	background: #0082c0 none repeat scroll 0 0;
+    color: #fff;
+    width: 100%;
+	border-radius: 5px;
+}
+.byline {
+  float: left;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.search-results .title {
+  float: left;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.search-results .post-box > p {
+  float: left;
+  font-family: "Gotham";
+  font-size: 15px;
+}
+.post-meta{
+	font-weight: bold;
+}
+.post-meta > span {
+  font-weight: normal;
+}
+.wpcf7-response-output{margin:0px !important;}
+
+.min_height {
+  min-height: 475px !important;
+}

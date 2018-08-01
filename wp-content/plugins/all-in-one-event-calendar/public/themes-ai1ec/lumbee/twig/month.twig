@@ -1,0 +1,94 @@
+{{ navigation | raw }}
+
+
+{% set my_month = 0 %}
+{% for week in cell_array %}
+	{% for day in week %}
+		{% for daya in day %}
+			{% set da1 =  daya | split('~', 2)[1] %}
+			{% set da1_sp =  da1 | split('~', 2)[1] %}
+			{% set final_new_date = da1_sp|replace({'/': " "}) %}
+			{% set selectedmonth = final_new_date | split('-')[1] %}
+			{% if (my_month*1) == 0 %}
+			{% set my_month = selectedmonth *1 %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+{% endfor %}
+
+
+
+
+<table class="ai1ec-month-view ai1ec-popover-boundary
+	{% if has_product_buy_button %} ai1ec-has-product-buy-button{% endif %}
+	{% if month_word_wrap %}ai1ec-word-wrap{% endif %}" cellspacing="10">
+	
+
+	<div class="all_months">
+	{% for j in range(1, 12) %}
+		{% set current_mon = "now"|date("M") %}
+		
+		{% set year_full = title|replace({'February': " ", 'January' : " ", 'March' : " ", 'April' : " ", 'May' : " ", 'June' : " ", 'July' : " ", 'August' : " ", 'September' : " ", 'October' : " ", 'November' : " ", 'December' : " "}) %}
+		{% set times = " 5:00:00 AM" %}
+		{% set final_str = year_full ~ '-' %}
+		{% set month_name_new = date(final_str ~ j ) |date('M') %}
+		{% set full_date = month_name_new ~ year_full ~ times %}
+		
+		{% set my_date = full_date|date("m") %}
+		
+		<a class="ai1ec-load-view"
+			{% if my_date == my_month %}
+			style="font-weight:bold !important;color:#0481B9 !important;"
+			{% endif %}
+			
+			data-type="jsonp"
+			href="../calendar/action~month/exact_date~{{full_date| date('U') }}/request_format~html/">
+			{{month_name_new}}
+		</a>
+	{% endfor %}
+	</div>
+	<thead>
+		<tr>
+			{% for weekday in weekdays %}
+				<th scope="col" class="ai1ec-weekday">{{ weekday }}</th>
+			{% endfor %}
+		</tr>
+	</thead>
+	<tbody class="main-table test">
+		{% for week in cell_array %}
+			{% set added_stretcher = false %}
+			<tr class="ai1ec-week">
+				{% for day in week %}
+
+					{% if day.date %}
+						<td {% if day.today %}class="ai1ec-today"{% endif %}>
+							{# This div is needed for laying out multi-day event bars. #}
+							{% if not added_stretcher %}
+								<div class="ai1ec-day-stretcher"></div>
+								{% set added_stretcher = true %}
+							{% endif %}
+
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<span class="cal_current_day">{{ day.date }}</span>
+								</div>
+								{% set inc = 1 %}
+								{% for event in day.events %}
+									{% if event.filtered_title is not empty %}
+										<a href="javascript:void(0)" data-time="{{ event.short_start_time }}" data-day="{{day.date}}" data-month="{{title}}" class="show_my_event"><span id="span{{inc}}"></span></a>
+									{% endif %}
+									{% set inc = inc + 1 %}
+								{% endfor %}
+							</div>
+						</td>
+					{% else %} {# day.date is not empty #}
+						<td class="ai1ec-empty"></td>
+					{% endif %} {# day.date is not empty #}
+
+				{% endfor %} {# day in week #}
+			</tr>
+		{% endfor %} {# week in cell_array #}
+	</tbody>
+</table>
+
+<div class="ai1ec-pull-left">{{ pagination_links | raw }}</div>

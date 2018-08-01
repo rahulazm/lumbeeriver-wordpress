@@ -1,0 +1,12 @@
+<a
+	class="ai1ec-minical-trigger ai1ec-btn ai1ec-btn-sm ai1ec-btn-default"
+	{% for attribute, value in attributes %}
+		{{ attribute }}="{{ value }}"
+	{% endfor %}
+	{{ data_type | raw }}
+	"
+	>
+	<i style="display:none" class="ai1ec-fa ai1ec-fa-calendar-o ai1ec-fa-fw ai1ec-fa-lg"></i>
+  <span class="ai1ec-calendar-title">{{title|replace({'February': " ", 'January' : " ", 'March' : " ", 'April' : " ", 'May' : " ", 'June' : " ", 'July' : " ", 'August' : " ", 'September' : " ", 'October' : " ", 'November' : " ", 'December' : " "})}}</span>
+  <span class="ai1ec-calendar-title-short">{{ title_short }}</span>
+</a>
